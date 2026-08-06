@@ -82,6 +82,10 @@ from .ben_custom import BenCustomSession
 
 sessions[BenCustomSession.name()] = BenCustomSession
 
+from .withoutbg import WithoutBgSession
+
+sessions[WithoutBgSession.name()] = WithoutBgSession
+
 sessions_names = list(sessions.keys())
 sessions_class = list(sessions.values())
 
